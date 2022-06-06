@@ -5,4 +5,3 @@ before-install:
   - docker build -t swagknight/frontend-dev -f Dockerfile.dev .
 script:
   - docker run swagknight/frontend-dev npm run test -- --coverage
-  
